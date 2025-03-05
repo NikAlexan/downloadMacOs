@@ -30,7 +30,7 @@ env:
 jobs:
   build:
     runs-on: macos-latest
-    if: github.repository == 'NikAlexan/Download-macOS'
+    if: github.repository == 'NikAlexan/downloadMacOs'
     steps:
       - uses: actions/checkout@v4
       
